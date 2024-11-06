@@ -33,10 +33,29 @@
 	border-radius: 5px;
 }
 
+.ListBox{
 
-.List{
-	list-style: none;
-	padding-top: 10px;
-	font-size: 20px;
-	text-align: center;
+	margin-top: 20px;
+	background-color: beige;
+
+	.List{
+		list-style: none;
+		font-size: 24px;
+		text-align: center;
+		display: inline;
+	}
+
+	.Check{
+		float: left;
+		zoom: 2.5;
+	}
+
+	.del{
+		font-size: 18px;
+		width: 32px;
+		height: 32px;
+		float: right;
+	}
+
 }
+

@@ -15,6 +15,9 @@ function Main(){
 		SetInputvalue('');
 	}
 
+	function deleteBtn(){
+		
+	}
 
 	return(
 		<div className='container'>
@@ -25,8 +28,8 @@ function Main(){
 				{
 					TodoList.map((value)=>{
 						return (
-							<div className='List'>
-								<input type='checkbox'/><li >{value}</li>
+							<div className='ListBox'>
+								<input className='List Check' type='checkbox'/>&nbsp;<li className='List ListContent' >{value}</li>&nbsp;<button onClick={deleteBtn} className='del' >X</button>
 							</div>
 					)})
 				}
